@@ -36,6 +36,8 @@ section#login {
    overflow: hidden;
 
    transform: translate(-50%, -50%);
+   transition: width .3s, height .3s;
+   transition-timing-function: ease;
 }
 
 section#login > div#foto{
@@ -87,7 +89,7 @@ div.campo > input{
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-13px);
+    transform: translateY(-12px);
 }
 
 form > input[type=submit]{

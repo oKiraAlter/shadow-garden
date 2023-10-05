@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/* CORES 
+    #5f2c82
+    Amarelo
+*/
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+   position: absolute; 
+   top: 50%;
+   left: 50%;
+   width: 250px;
+   height: 515px;
+   background-color: white;
+   border-radius: 20px;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+   overflow: hidden;
+
+   transform: translate(-50%, -50%);
+}
+
+section#login > div#foto{
+    display: block;
+    background: #5f2c82 url(../imagens/istockphoto-1094211470-170667a.jpg) no-repeat;
+    background-position: top;
+    height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+}
+
+div.campo label {
+    display: none;
+}
+
+form > div.campo {
+    display: block;
+    background-color: purple;
+    border: 2px solid purple;
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input{
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-13px);
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: gold;
+    color: purple;
+}
+
+form > a.botao{
+    display: block;
+    font-size: 1em;
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+    padding-top: 7px;
+    color: purple;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+form > a.botao:hover{
+    background-color: rgb(200, 114, 235);
+    color: white;
+}
+
+form > a.botao > span{
+    font-size: 0.8em;
+}

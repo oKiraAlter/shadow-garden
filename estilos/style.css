@@ -123,7 +123,7 @@ form > a.botao{
 }
 
 form > a.botao:hover{
-    background-color: rgb(200, 114, 235);
+    background-color: #5f2c82;
     color: white;
 }
 
